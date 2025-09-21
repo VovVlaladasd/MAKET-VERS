@@ -403,10 +403,5 @@ button {
     }
 
 
-    .about__img {
-        width: 100%;
-        height: 100%;
-        border-radius: 6px;
-        background-color: rgba(248, 248, 248, 1);
-    }
+
 }
