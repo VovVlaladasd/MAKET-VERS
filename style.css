@@ -23,7 +23,7 @@ button {
 
 /*header*/
 .page {
-    max-width: 1120px;
+
     width: 100%;
     overflow: hidden;
     margin: 0 auto;
@@ -36,7 +36,7 @@ button {
 }
 
 .header__content {
-    max-width: 1120px;
+
     width: 100%;
     padding: 0 16px;
     margin: 0 auto;
@@ -109,7 +109,7 @@ button {
 }
 
 .menu {
-    max-width: 1220px;
+
     width: 100%;
     padding-right: 16px;
     margin: 0 auto;
@@ -180,7 +180,7 @@ button {
 }
 
 .about {
-    max-width: 1220px;
+
     width: 100%;
     margin: 0 auto;
     display: grid;
@@ -189,19 +189,19 @@ button {
 
 
 .about__info {
-    padding-left: 16px;
+
     padding-right: 16px;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.2px;
-    max-height: 90px;
+
     overflow: hidden;
 }
 
 .about__button-read {
     display: flex;
     align-items: center;
-    margin: 10px 32px 16px 1px;
+    margin: 10px 32px 16px 0;
 }
 
 
@@ -215,9 +215,12 @@ button {
     background-size: cover;
 }
 
+.about__text{
+    padding-left: 16px;
+}
 
 .about__img {
-    height: auto;
+    height: 100%;
     width: 100%;
     border-radius: 2px;
     background-color: rgba(248, 248, 248, 1);
@@ -232,11 +235,9 @@ button {
         display: none;
     }
 
-    .about__img {
-        min-width: 360px;
-        flex: 2;
-    }
-
+    .about__text{
+    padding-left: 16px;
+}
 
 }
 
@@ -300,14 +301,10 @@ button {
         column-gap: 48px;
     }
 
-    .about__img {
-        border-radius: 6px;
-        background-color: rgba(248, 248, 248, 1);
-    }
+    
 
     .about__info {
-        max-width: 312px;
-        max-height: 160px;
+
         line-height: 20px;
         padding: 0;
     }
@@ -330,6 +327,7 @@ button {
         display: none;
     }
 
+
     .menu__navigation::before,
     .menu__navigation::after {
         content: none;
@@ -351,7 +349,7 @@ button {
         gap: 36px;
         margin-left: auto;
         margin-right: auto;
-        max-width: 1120px;
+
         width: 100%;
     }
 
@@ -402,8 +400,7 @@ button {
     .about__info {
         padding: 0;
         line-height: 20px;
-        max-width: 490px;
-        max-height: 190px;
+
     }
 
     .service-info__read-more {
@@ -412,6 +409,8 @@ button {
 
 
     .about__img {
+        width: 70%;
+        height: 100%;
         border-radius: 6px;
         background-color: rgba(248, 248, 248, 1);
     }
